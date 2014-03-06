@@ -1,0 +1,9 @@
+C:\Data\github\TextToLINQ\TextToLINQ\bin\Debug\TextToLINQ.exe.config
+C:\Data\github\TextToLINQ\TextToLINQ\bin\Debug\TextToLINQ.exe
+C:\Data\github\TextToLINQ\TextToLINQ\bin\Debug\TextToLINQ.pdb
+C:\Data\github\TextToLINQ\TextToLINQ\obj\Debug\TextToLINQ.csprojResolveAssemblyReference.cache
+C:\Data\github\TextToLINQ\TextToLINQ\obj\Debug\TextToLINQ.Form1.resources
+C:\Data\github\TextToLINQ\TextToLINQ\obj\Debug\TextToLINQ.Properties.Resources.resources
+C:\Data\github\TextToLINQ\TextToLINQ\obj\Debug\TextToLINQ.csproj.GenerateResource.Cache
+C:\Data\github\TextToLINQ\TextToLINQ\obj\Debug\TextToLINQ.exe
+C:\Data\github\TextToLINQ\TextToLINQ\obj\Debug\TextToLINQ.pdb
