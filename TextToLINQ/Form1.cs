@@ -226,6 +226,11 @@ namespace TextToLINQ
         {
             textBox1.Text = "from d in data where d.Item == \"Pencil\" && d.Units > 50 select new {d.Region, d.Units, d.Item}";
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = @"data.GroupBy(x => x.Region).Select(x => new {Region = x.Key, Units = x.Sum(y => y.Units)})";
+        }
     }
 
     /// <summary>
@@ -237,7 +242,7 @@ namespace TextToLINQ
         public DateTimeOffset OrderDate { get; set; }
         public string RepName { get; set; }
         public string Item { get; set; }
-        public long Units { get; set; }
+        public int Units { get; set; }
         public double UnitCost { get; set; }
         public double Total { get; set; }
     }
