@@ -212,7 +212,7 @@ namespace TextToLINQ
 
         private void LoadFilteredData()
         {   
-            var filteredData = DataFilterHelper.GetFilteredData(this.SourceData.Select(x => (dynamic)x).ToList(), UserQuery);
+            var filteredData = DataFilterHelper.GetFilteredData(this.SourceData, UserQuery);
 
             dataGridView2.DataSource = filteredData;
         }
